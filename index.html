@@ -411,6 +411,7 @@ body {
   color: var(--white);
   margin-bottom: 10px;
   font-style: italic;
+  filter: blur(5px);  
 }
 
 .preview-body-blur {
@@ -1988,7 +1989,7 @@ function showGate() {
     </div>
     
     <button class="btn-action" onclick="submitGate()">Reveal My Results →</button>
-    <div class="privacy-micro">🔒 Private & confidential. No spam. Unsubscribe anytime.</div>
+    <div class="privacy-micro">🔒 Private & confidential.</div>
   `;
   card.style.animation = 'none';
   void card.offsetWidth;
